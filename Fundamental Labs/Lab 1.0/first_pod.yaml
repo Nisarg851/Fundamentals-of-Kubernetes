@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: First_Pod
+  name: First-Pod
   labels:
     tags: Fundamental
 spec:
   containers:
-    - name: hello-world_container
+    - name: hello-world-container
       image: hello-world:latest
