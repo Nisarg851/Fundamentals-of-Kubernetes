@@ -25,7 +25,7 @@ apiVersion: Version fo the API to be used to create resource
 
 kind: type of resource
 
-metadata: information about the resource
+metadata: information about the resource (below are some of the information that can be passed as metadata)
   name: name of the resource
   labels: tags to help group the resource together, can be more than one
     key: value <- This can be any key-value pair

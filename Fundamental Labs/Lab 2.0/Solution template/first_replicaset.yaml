@@ -1,0 +1,18 @@
+apiVersion: apps/v2
+kind: ReplicaSet
+metadata:
+  name: first-replicaset
+spec:
+  selector:
+    matchLabels:
+      tags: Fundamental
+  replicas: 2
+  template:
+    metadata:
+      name: my-pod
+      labels:
+        tags: Fundamental
+    spec:
+      containers:
+        - name: my-container
+          image: hello-world:latest
